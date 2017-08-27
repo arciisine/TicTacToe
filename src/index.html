@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <link href="./style/app.css" rel="stylesheet">
+    <script src="./external/systemjs/dist/system.js"></script>      
+  </head>
+  <body>
+    <script>
+      System.config({
+        packages: {
+          app: { defaultExtension: 'js' }
+        }
+      });
+    </script>
+    <script>System.import('app/index');</script>
+  </body>
+</html>

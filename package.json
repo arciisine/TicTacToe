@@ -1,0 +1,33 @@
+{
+  "name": "org.arcsine.tictactoe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "./node_modules/.bin/gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arciisine/TicTacToe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arciisine/TicTacToe/issues"
+  },
+  "homepage": "https://github.com/arciisine/TicTacToe#readme",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-typescript": "^3.2.1",
+    "gulp-watch": "^4.3.11",
+    "typescript": "^2.5.1",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "systemjs": "^0.20.15"
+  }
+}

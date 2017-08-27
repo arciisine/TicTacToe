@@ -1,0 +1,23 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+div {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.board {
+  width: 600px;
+  height: 600px;
+  button {
+    display: block;
+    float: left;
+    width: 200px;
+    height: 200px;
+    font-size: 200px;
+  }
+}
